@@ -10,101 +10,122 @@
 </head>
 
 <body>
-    <header>
+    <header class="header__nav">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">Product</a></li>
+                <li class="nav__item"><a href="#">Pricing</a></li>
+                <li class="nav__item"><a href="#about">About</a></li>
+                <li class="nav__item"><a href="#">Contact</a></li>
+                <li class="nav__item"><a href="#"><img src="img/logo.png" alt="logoPhoto"></a></li>
+            </ul>
+            <div class="social">
+                <a href="" class="social__item"><img src="img/twitter.png" alt="twitter"></a>
+                <a href="" class="social__item"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="" class="social__item"><img src="img/linkedln.png" alt="linkedln"></a>
+            </div>
+        </nav>
         <div class="title">
-            <img src="img/titlePhoto.svg" alt="titlePhoto">
-            <img src="img/logo.png" alt="logoPhoto">
+            <img src="img/titlePhoto.svg" alt="laptopAndPeople">
             <img src="img/menuMobile.png" alt="menuMobile">
             <h1 class="bestProducts">The best products start with Figma</h1>
             <h2>Most calendars are designed for teams. </h2>
             <h3>Try For Free</h3>
         </div>
     </header>
-    <main>
-        <div class="featuresContainer">
-            <div class="features">
+    <section class="about" id="about">
+        <div class="about__feauters">
+            <div class="about__features-block">
                 <h2>Features</h2>
                 <h4>Most calendars are designed for teams. </h4>
             </div>
-            <div class="featuresPhoto"><img src="img/featuresPhoto.png" alt="featuresPhoto"></div>
-            <div class="figure">
+            <div class="about__features_Photo"><img src="img/featuresPhoto.png" alt="featuresPhoto"></div>
+            <div class="about__feauters_figure">
                 <img src="img/figure.png" alt="figure">
-                <h3 class="openType">OpenType features Variable fonts</h3>
-                <p class="slateHelps">Slate helps you see how many more days you need to work to reach your financial
+                <h3 class="about__feauters_figure_openType">OpenType features Variable fonts</h3>
+                <p class="about__feauters_figure_slateHelps">Slate helps you see how many more days you need to work to
+                    reach your financial
                     goal.</p>
             </div>
-            <div class="draws">
+            <div class="about__feauters_draws">
                 <img src="img/draws.png" alt="draws">
-                <h3 class="design">Design with real data</h3>
-                <p class="slateHelps">Slate helps you see how many more days you need to work to reach your financial
+                <h3 class="about__feauters_draws_design">Design with real data</h3>
+                <p class="about__feauters_draws_slateHelps">Slate helps you see how many more days you need to work to
+                    reach your financial
                     goal.</p>
             </div>
-            <div class="brush">
+            <div class="about__feauters_brush">
                 <img src="img/brush.png" alt="brush">
-                <h3 class="fastest">Fastest way to take action</h3>
-                <p class="slateHelps">Slate helps you see how many more days you need to work to reach your financial
+                <h3 class="about__feauters_brush_fastest">Fastest way to take action</h3>
+                <p class="about__feauters_brush_slateHelps">Slate helps you see how many more days you need to work to
+                    reach your financial
                     goal.</p>
             </div>
         </div>
-        <div class="fastesContainer">
-            <div class="fastest">
-                <h2 class="fastestWay">Fastest way to organize </h2>
-                <h4 class="mostCalendars">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <div class="about__fastesContainer">
+            <div class="about__fastest">
+                <h2 class="about__fastestWay">Fastest way to organize </h2>
+                <h4 class="about__mostCalendars">Most calendars are designed for teams. Slate is designed for
+                    freelancers</h4>
                 <h3>Try For Free</h3>
             </div>
-            <div class="computerPhoto">
+            <div class="about__computerPhoto">
                 <img src="img/computer.png" alt="computer">
             </div>
         </div>
-        <div class="newsletterContainer">
-            <div class="fingertips">
-                <h3 class="atYour">At your fingertips</h3>
-                <h2 class="news">Newsletter</h2>
-                <p class="mostCalendars">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="about__newsletterContainer">
+            <div class="about__fingertips">
+                <h3 class="about__atYour">At your fingertips</h3>
+                <h2 class="about__news">Newsletter</h2>
+                <p class="about__mostCalendars">Most calendars are designed for teams. Slate is designed for freelancers
+                </p>
             </div>
-            <div class="manPhoto">
+            <div class="about__manPhoto">
                 <img src="img/man.png" alt="man">
             </div>
-            <div class="subscribe">
-                <h3 class="subscribeTo">Subscribe to our Newsletter</h3>
-                <p class="available">Available exclusivery on Figmaland</p>
-                <input id="email" type="email" name="email" value="Your Email"
+            <div class="about__subscribe">
+                <h3 class="about__subscribeTo">Subscribe to our Newsletter</h3>
+                <p class="about__available">Available exclusivery on Figmaland</p>
+                <input id="about__email" type="email" name="email" value="Your Email"
                     placeholder="Введіть вашу електронну адресу" pattern="[A-Za-z-@]+" required>
                 <button>Subscribe</button>
             </div>
         </div>
-        <div class="partnersContainer">
-            <div class="blockPartners">
-                <h2 class="partnersMini">Partners</h2>
-                <h4 class="mostCalendars">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <div class="about__partnersContainer">
+            <div class="about__blockPartners">
+                <h2 class="about__partnersMini">Partners</h2>
+                <h4 class="about__mostCalendars">Most calendars are designed for teams. Slate is designed for
+                    freelancers</h4>
             </div>
-            <div class="logos">
-                <div class="googleBlock">
-                    <h4 class="client">Client Name</h4>
+            <div class="about__logos">
+                <div class="about__googleBlock">
+                    <h4 class="about__client">Client Name</h4>
                     <img src="img/logosGoogle.png" alt="google">
                 </div>
-                <div class="amazonBlock">
+                <div class="about__amazonBlock">
                     <h4 class="client">Client Name</h4>
                     <img src="img/amazon.png" alt="amazon">
                 </div>
-                <div class="microsoftBlock">
+                <div class="about__microsoftBlock">
                     <h4 class="client">Client Name</h4>
                     <img src="img/microsoft.png" alt="microsoft">
                 </div>
             </div>
-            <div class="button">
+            <div class="about__button">
                 <h3>Try For Free</h3>
             </div>
         </div>
-        <div class="testimonialsContainer">
-            <div class="testimonialsBlock">
-                <h2 class="testimonials">Testimonials</h2>
+        <div class="about__testimonialsContainer">
+            <div class="about__testimonialsBlock">
+                <h2 class="about__testimonials">Testimonials</h2>
             </div>
-            <div class="ibmPhoto">
+            <div class="about__ibmPhoto">
                 <img src="img/ibm.png" alt="ibmPhoto">
             </div>
-            <div class="mostCalendars">
-                <h4 class="mostCalendars">Most calendars are designed for teams. Slate is designed for freelancers who
+            <div class="about__mostCalendars">
+                <h4 class="about__mostCalendars">Most calendars are designed for teams. Slate is designed for
+                    freelancers who
                     want a simple way to plan their schedule.</h4>
             </div>
             <div>
@@ -112,18 +133,19 @@
                 <span>Organize across</span>
                 <span>Ui designer</span>
             </div>
-            <div class="button">
+            <div class="about__button">
                 <h3>More Testimonials</h3>
             </div>
         </div>
-        <div class="darkContainer">
-            <div class="titlePricing">
-                <h2 class="pricing">Pricing</h2>
-                <h4 class="mostCalendars">Most calendars are designed for teams.Slate is designed for freelancers</h4>
+        <div class="about__darkContainer">
+            <div class="about__titlePricing">
+                <h2 class="about__pricing">Pricing</h2>
+                <h4 class="about__mostCalendars">Most calendars are designed for teams.Slate is designed for freelancers
+                </h4>
             </div>
-            <div class="blockFree">
-                <h3 class="free">FREE</h3>
-                <h5 class="organize">Organize across all apps by hand</h5>
+            <div class="about__blockFree">
+                <h3 class="about__free">FREE</h3>
+                <h5 class="about__organize">Organize across all apps by hand</h5>
                 <span>0</span>
                 <span>$</span>
                 <span>Per Month</span>
@@ -132,11 +154,11 @@
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
-                <button class="orderNow">Order Now</button>
+                <button class="about__orderNow">Order Now</button>
             </div>
-            <div class="blockStandard">
-                <h3 class="standard">STANDARD</h3>
-                <h5 class="organize">Organize across all apps by hand</h5>
+            <div class="about__blockStandard">
+                <h3 class="about__standard">STANDARD</h3>
+                <h5 class="about__organize">Organize across all apps by hand</h5>
                 <span>10</span>
                 <span>$</span>
                 <span>Per Month</span>
@@ -145,11 +167,11 @@
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
-                <button class="orderNow">Order Now</button>
+                <button class="about__orderNow">Order Now</button>
             </div>
-            <div class="blockBusiness">
-                <h3 class="business">BUSINESS</h3>
-                <h5 class="organize">Organize across all apps by hand</h5>
+            <div class="about__blockBusiness">
+                <h3 class="about__business">BUSINESS</h3>
+                <h5 class="about__organize">Organize across all apps by hand</h5>
                 <span>99</span>
                 <span>$</span>
                 <span>Per Month</span>
@@ -158,33 +180,33 @@
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
                 <p>Pricing Feature</p>
-                <button class="orderNow">Order Now</button>
+                <button class="about__orderNow">Order Now</button>
             </div>
         </div>
-        <div class="contactContainer">
-            <div class="blockContact">
-                <h2 class="contact">Contact Us</h2>
-                <h3 class="mostCalendars">Most calendars are designed for teams. </h3>
+        <div class="block__contactContainer">
+            <div class="block__blockContact">
+                <h2 class="block__contact">Contact Us</h2>
+                <h3 class="block__mostCalendars">Most calendars are designed for teams. </h3>
             </div>
-            <div class="socialNetworks">
+            <div class="block__socialNetworks">
                 <img src="img/twitter.png" alt="twitter">
                 <img src="img/facebook.png" alt="facebook">
                 <img src="img/linkedln.png" alt="linkedln">
             </div>
-            <div class="location">
+            <div class="block__location">
                 <img src="img/location.png" alt="location">
-                <p class="addres">6386 Spring St undefined Anchorage,
+                <p class="block__addres">6386 Spring St undefined Anchorage,
                     Georgia 12473 United States</p>
             </div>
-            <div class="telephon">
+            <div class="block__telephon">
                 <img src="img/telephon.png" alt="telephon">
-                <p class="number">(843) 555-0130</p>
+                <p class="block__number">(843) 555-0130</p>
             </div>
-            <div class="email">
+            <div class="block__email">
                 <img src="img/email.png" alt="email">
-                <p class="emailPost">willie.jennings@example.com</p>
+                <p class="block__emailPost">willie.jennings@example.com</p>
             </div>
-            <div class="usContact">
+            <div class="block__usContact">
                 <h3 class="we">Contact Us</h3>
                 <input type="text">Your Name
                 <input type="email">Your Email
@@ -192,7 +214,7 @@
                 <button>Send</button>
             </div>
         </div>
-    </main>
+    </section>
     <footer>
         <div class="footer">
             <div class="blockLeft">
