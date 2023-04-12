@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Cormorant+Garamond:wght@500;700&family=Dosis:wght@700&family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    font-family: 'Chivo', sans-serif;
+}
+.header__nav{
+    position: relative;
+    display: inline-block; 
+}
+.nav__social{
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1200px;
+}
+.nav__item-logo{
+  text-align: center;   
+}
+ .nav__title{
+    background-size: cover;
+    position: relative;
+}
+
